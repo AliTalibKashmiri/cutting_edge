@@ -79,7 +79,7 @@ class _WelcomePageState extends State<WalkThrough> {
                   onTap: (){
                     Navigator.pushReplacementNamed(context, "welcome");
                   },
-                  child: customButton())
+                  child: getStarted())
             ),
           ],
         ),
